@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style type="text/css">
+.navbar
+{
+  margin:0px;
+}
+   #login a
+   {
+     text-align:center;
+   }
+   #login  a
+   {
+      background-color:blue;
+      width:100px;
+      height:30px;
+      color:white;
+      text-align:center;
+   }
+    #menu li
+  {
+    color:#000000;
+    font-size:1.5em;
+  }
+  #sega
+  {
+  
+  background-color:#660000;
+    
+     margin:0px;
+ }
+  #contentimage
+  {
+    margin:0px;
+    background-image:url("https://images.unsplash.com/photo-1445112098124-3e76dd67983c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size:100% 100%;
+    width:100%;
+    height:800px;
+  
+  }
+  #login .loginli
+  {
+   font-size:1.5em;
+    color:#CC0066;
+  
+  }
+</style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-default">
+      <div class="jumbotron" id="sega">
+      <div class="container">
+          <div class="navbar-header">
+             <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+             </button>
+             <img src=""  />
+          </div>
+          <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav navbar-right ">
+                 <li><a href="home.html">Home</a></li>
+                 <li><a href="reg.html">Register</a></li>
+                 <li><a href="login.html">Login</a></li>
+              </ul>
+          </div>
+     </div>
+     </div>
+  </nav>
+  
+  <div class="container" id="contentimage">
+     <div class="row">
+        <div  class="col-md-3 col-sm-3 col-lg-3">
+        </div>
+        <div id="login" class="col-md-6 col-sm-6 col-lg-6">
+          <form method="post" action="loginregister">
+           <h2 class="center">Login Form</h2>
+           <label  for="email" class="loginli">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+           <input  type="text" name="email" required ><br>
+           <label  for="password" class="loginli">Password :</label>
+           <input  type="password" name="password" required ><br>
+           <input type="submit" class="btn btn-primary" name="submit" value="Login" />
+            <h3>Dont Have an Account?</h3>
+            <a href="reg.html" class="btn btn-primary">Register</a>
+            
+           </form>
+        </div>
+         <div  class="col-md-3 col-sm-3 col-lg-3">
+        </div>
+     </div>
+  </div>
+</body>
+</html>
